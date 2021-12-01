@@ -24,3 +24,24 @@ myList.push(["Hell", 2]);
 myList.push(["Hel", 3]);
 myList.push(["He", 4]);
 myList.push(["H", 5]);
+
+
+//Write Reusable JavaScript with Functions
+function reusableFunction() {
+    console.log("Hi World")
+  };
+  
+  reusableFunction();
+
+
+  //Passing Values to Functions with Arguments
+  function functionWithArgs(a, b) {
+    console.log(a + b)
+    };
+    functionWithArgs(1, 2);
+
+
+    //Return a Value from a Function with Return
+    function timesFive(num) {
+        return num * 5
+        };
