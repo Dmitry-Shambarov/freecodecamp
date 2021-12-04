@@ -195,3 +195,9 @@ function nextInLine(arr, item) {
   }
   
   switchOfStuff(1);
+
+
+  //Using the Test Method
+  let myString = "Hello, World!";
+let myRegex = /W/;
+let result = myRegex.test(myString); // Change this line
